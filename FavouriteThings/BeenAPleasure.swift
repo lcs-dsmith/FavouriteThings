@@ -1,18 +1,20 @@
 //
-//  ContentView.swift
+//  BeenAPleasure.swift
 //  FavouriteThings
 //
-//  Created by Dylan Smith on 2021-02-04.
+//  Created by Dylan Smith on 2021-02-05.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct BeenAPleasure: View {
     var body: some View {
+        
         VStack{
             
-       
-        Image("meme")
+            Text("been a pleasure")
+        
+            Image("meme")
             .resizable()
             .scaledToFit()
             
@@ -23,8 +25,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct BeenAPleasure_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        BeenAPleasure()
     }
 }

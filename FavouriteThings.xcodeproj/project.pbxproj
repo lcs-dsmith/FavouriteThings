@@ -10,7 +10,10 @@
 		4AB95A7F25CC40AA00956E74 /* FavouriteThingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB95A7E25CC40AA00956E74 /* FavouriteThingsApp.swift */; };
 		4AB95A8125CC40AA00956E74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB95A8025CC40AA00956E74 /* ContentView.swift */; };
 		4AB95A8325CC40AE00956E74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AB95A8225CC40AE00956E74 /* Assets.xcassets */; };
-		4AB95A8625CC40AE00956E74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AB95A8525CC40AE00956E74 /* Preview Assets.xcassets */; };
+		4AE8A14825CDA8EE008C3ACE /* MeanwhileInCanada.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE8A14725CDA8EE008C3ACE /* MeanwhileInCanada.swift */; };
+		4AE8A14B25CDA906008C3ACE /* ShovelCanadianDriveway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE8A14A25CDA906008C3ACE /* ShovelCanadianDriveway.swift */; };
+		4AE8A14E25CDA913008C3ACE /* ParkingSpot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE8A14D25CDA913008C3ACE /* ParkingSpot.swift */; };
+		4AE8A15625CDA9D7008C3ACE /* BeenAPleasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE8A15525CDA9D7008C3ACE /* BeenAPleasure.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,8 +21,11 @@
 		4AB95A7E25CC40AA00956E74 /* FavouriteThingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsApp.swift; sourceTree = "<group>"; };
 		4AB95A8025CC40AA00956E74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4AB95A8225CC40AE00956E74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4AB95A8525CC40AE00956E74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4AB95A8725CC40AE00956E74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AE8A14725CDA8EE008C3ACE /* MeanwhileInCanada.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeanwhileInCanada.swift; sourceTree = "<group>"; };
+		4AE8A14A25CDA906008C3ACE /* ShovelCanadianDriveway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShovelCanadianDriveway.swift; sourceTree = "<group>"; };
+		4AE8A14D25CDA913008C3ACE /* ParkingSpot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingSpot.swift; sourceTree = "<group>"; };
+		4AE8A15525CDA9D7008C3ACE /* BeenAPleasure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeenAPleasure.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,10 @@
 				4AB95A8225CC40AE00956E74 /* Assets.xcassets */,
 				4AB95A8725CC40AE00956E74 /* Info.plist */,
 				4AB95A8425CC40AE00956E74 /* Preview Content */,
+				4AE8A14725CDA8EE008C3ACE /* MeanwhileInCanada.swift */,
+				4AE8A14A25CDA906008C3ACE /* ShovelCanadianDriveway.swift */,
+				4AE8A14D25CDA913008C3ACE /* ParkingSpot.swift */,
+				4AE8A15525CDA9D7008C3ACE /* BeenAPleasure.swift */,
 			);
 			path = FavouriteThings;
 			sourceTree = "<group>";
@@ -64,7 +74,6 @@
 		4AB95A8425CC40AE00956E74 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				4AB95A8525CC40AE00956E74 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -126,7 +135,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AB95A8625CC40AE00956E74 /* Preview Assets.xcassets in Resources */,
 				4AB95A8325CC40AE00956E74 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AE8A14825CDA8EE008C3ACE /* MeanwhileInCanada.swift in Sources */,
 				4AB95A8125CC40AA00956E74 /* ContentView.swift in Sources */,
+				4AE8A15625CDA9D7008C3ACE /* BeenAPleasure.swift in Sources */,
+				4AE8A14B25CDA906008C3ACE /* ShovelCanadianDriveway.swift in Sources */,
+				4AE8A14E25CDA913008C3ACE /* ParkingSpot.swift in Sources */,
 				4AB95A7F25CC40AA00956E74 /* FavouriteThingsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
