@@ -10,6 +10,9 @@ import SwiftUI
 struct ShovelCanadianDriveway: View {
     var body: some View {
         Text("shovel a Canadian driveway")
+        Image("CanadianDriveway")
+        .resizable()
+        .scaledToFit()
     }
 }
 

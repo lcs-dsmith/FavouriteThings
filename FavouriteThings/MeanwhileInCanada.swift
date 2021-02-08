@@ -10,6 +10,9 @@ import SwiftUI
 struct MeanwhileInCanada: View {
     var body: some View {
         Text("Meanwhile in Canada")
+        Image("MeanwhileInCanada")
+        .resizable()
+        .scaledToFit()
     }
 }
 

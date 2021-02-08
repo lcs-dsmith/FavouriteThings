@@ -10,6 +10,9 @@ import SwiftUI
 struct ParkingSpot: View {
     var body: some View {
         Text("Parking Spot")
+        Image("ParkingSpot")
+        .resizable()
+        .scaledToFit()
     }
 }
 
