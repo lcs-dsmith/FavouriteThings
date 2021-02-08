@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A81565F25D1A35E00266327 /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A81565E25D1A35E00266327 /* ListItem.swift */; };
 		4AB95A7F25CC40AA00956E74 /* FavouriteThingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB95A7E25CC40AA00956E74 /* FavouriteThingsApp.swift */; };
 		4AB95A8125CC40AA00956E74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB95A8025CC40AA00956E74 /* ContentView.swift */; };
 		4AB95A8325CC40AE00956E74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AB95A8225CC40AE00956E74 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A81565E25D1A35E00266327 /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
 		4AB95A7B25CC40AA00956E74 /* FavouriteThings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavouriteThings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AB95A7E25CC40AA00956E74 /* FavouriteThingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsApp.swift; sourceTree = "<group>"; };
 		4AB95A8025CC40AA00956E74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				4AE8A14A25CDA906008C3ACE /* ShovelCanadianDriveway.swift */,
 				4AE8A14D25CDA913008C3ACE /* ParkingSpot.swift */,
 				4AE8A15525CDA9D7008C3ACE /* BeenAPleasure.swift */,
+				4A81565E25D1A35E00266327 /* ListItem.swift */,
 			);
 			path = FavouriteThings;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AE8A14825CDA8EE008C3ACE /* MeanwhileInCanada.swift in Sources */,
+				4A81565F25D1A35E00266327 /* ListItem.swift in Sources */,
 				4AB95A8125CC40AA00956E74 /* ContentView.swift in Sources */,
 				4AE8A15625CDA9D7008C3ACE /* BeenAPleasure.swift in Sources */,
 				4AE8A14B25CDA906008C3ACE /* ShovelCanadianDriveway.swift in Sources */,
