@@ -9,82 +9,50 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-
+        
         NavigationView {
             List {
                 
                 NavigationLink(destination: MeanwhileInCanada()) {
-                    HStack {
-                        Text("❄️")
-                            .font(.largeTitle)
-                        
-                        VStack(alignment: .leading){
-                            
-                            Text("Meanwhile in Canada...")
-                                .font(.title2)
-                                .fontWeight(.bold)
-                            
-                            Text("How do you get to your monening coffe?")
-                                .font(.footnote)
-                        
-                            }
-                        }
+                    ListItem(hint:"❄️",
+                             title: "Meanwhile in Canada",
+                             summary: "How do you get your morning coffe?")
                     
-                
+                    
                 }
                 
                 NavigationLink(destination: ShovelCanadianDriveway()) {
                     
-                    HStack {
-                        Text("🚙")
-                            .font(.largeTitle)
-                        
-                        VStack(alignment: .leading){
-                            
-                            Text("Shovel a Canadian driveway")           .font(.title2)
-                                .fontWeight(.bold)
-                            
-                            Text("Never say do i right the first")
-                                .font(.footnote)
-                        
-                            }
-                        }
+                    ListItem(hint:"🚙",
+                             title: "Shovel a Canadian driveway",
+                             summary: "Never say you can do it right the first time")
                 }
                 
                 NavigationLink(destination: ParkingSpot()) {
                     
                     
-                    HStack {
-                        Text("🆙")
-                            .font(.largeTitle)
-                        
-                        VStack(alignment: .leading){
-                            
-                            Text("Canadaain Parking spot")
-                                .font(.title2)
-                                .fontWeight(.bold)
-                            
-                            Text("There is always a parking spot")
-                                .font(.footnote)
-                        
-                            }
-                        }
+                    ListItem(hint:"🆙",
+                             title: "Canadian parking spot",
+                             summary: "There is always a parking spot")
                 }
-                }
+                
                 NavigationLink(destination: BeenAPleasure()) {
-                    Text("It's been a pleasure")
+                    ListItem(hint:"🎻",
+                             title: "It's been a pleasure",
+                             summary: "Good day my friends")
                 }
                 
                 
                 
-           }
+            }
             .navigationTitle("Memes")
         }
-
-
-
-
     }
+    
+    
+    
+    
+}
 
 
 struct ContentView_Previews: PreviewProvider {
@@ -93,5 +61,30 @@ struct ContentView_Previews: PreviewProvider {
             .preferredColorScheme(.dark)
         ContentView()
             .preferredColorScheme(.light)
+    }
+}
+
+struct ListItem: View {
+    
+    var hint: String
+    var title: String
+    var summary: String
+    
+    var body: some View {
+        HStack {
+            Text(hint)
+                .font(.largeTitle)
+            
+            VStack(alignment: .leading){
+                
+                Text(title)
+                    .font(.title2)
+                    .fontWeight(.bold)
+                
+                Text(summary)
+                    .font(.footnote)
+                
+            }
+        }
     }
 }
