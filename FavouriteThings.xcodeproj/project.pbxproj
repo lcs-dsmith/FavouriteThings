@@ -15,6 +15,8 @@
 		4AE8A14B25CDA906008C3ACE /* ShovelCanadianDriveway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE8A14A25CDA906008C3ACE /* ShovelCanadianDriveway.swift */; };
 		4AE8A14E25CDA913008C3ACE /* ParkingSpot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE8A14D25CDA913008C3ACE /* ParkingSpot.swift */; };
 		4AE8A15625CDA9D7008C3ACE /* BeenAPleasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE8A15525CDA9D7008C3ACE /* BeenAPleasure.swift */; };
+		4AFE132D25D3227200342C7F /* thing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AFE132C25D3227200342C7F /* thing.swift */; };
+		4AFE133025D43EA500342C7F /* ThingDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AFE132F25D43EA500342C7F /* ThingDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		4AE8A14A25CDA906008C3ACE /* ShovelCanadianDriveway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShovelCanadianDriveway.swift; sourceTree = "<group>"; };
 		4AE8A14D25CDA913008C3ACE /* ParkingSpot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingSpot.swift; sourceTree = "<group>"; };
 		4AE8A15525CDA9D7008C3ACE /* BeenAPleasure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeenAPleasure.swift; sourceTree = "<group>"; };
+		4AFE132C25D3227200342C7F /* thing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thing.swift; sourceTree = "<group>"; };
+		4AFE132F25D43EA500342C7F /* ThingDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,8 @@
 				4AE8A14D25CDA913008C3ACE /* ParkingSpot.swift */,
 				4AE8A15525CDA9D7008C3ACE /* BeenAPleasure.swift */,
 				4A81565E25D1A35E00266327 /* ListItem.swift */,
+				4AFE132C25D3227200342C7F /* thing.swift */,
+				4AFE132F25D43EA500342C7F /* ThingDetail.swift */,
 			);
 			path = FavouriteThings;
 			sourceTree = "<group>";
@@ -149,10 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AFE132D25D3227200342C7F /* thing.swift in Sources */,
 				4AE8A14825CDA8EE008C3ACE /* MeanwhileInCanada.swift in Sources */,
 				4A81565F25D1A35E00266327 /* ListItem.swift in Sources */,
 				4AB95A8125CC40AA00956E74 /* ContentView.swift in Sources */,
 				4AE8A15625CDA9D7008C3ACE /* BeenAPleasure.swift in Sources */,
+				4AFE133025D43EA500342C7F /* ThingDetail.swift in Sources */,
 				4AE8A14B25CDA906008C3ACE /* ShovelCanadianDriveway.swift in Sources */,
 				4AE8A14E25CDA913008C3ACE /* ParkingSpot.swift in Sources */,
 				4AB95A7F25CC40AA00956E74 /* FavouriteThingsApp.swift in Sources */,

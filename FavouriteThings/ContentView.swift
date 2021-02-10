@@ -11,40 +11,21 @@ struct ContentView: View {
     var body: some View {
         
         NavigationView {
-            List {
-                
-                NavigationLink(destination: MeanwhileInCanada()) {
-                    ListItem(hint:"❄️",
-                             title: "Meanwhile in Canada",
-                             summary: "How do you get your morning coffe?")
+            List(favouriteThings) { thing in
+
+                NavigationLink(destination: ThingDetail(heroImage: thing.heroImage,
+                                                        details: thing.details,
+                                                        title: thing.title)) {
                     
+                    ListItem(hint: thing.hint,
+                             title: thing.title,
+                             summary: thing.summary)
                     
                 }
                 
-                NavigationLink(destination: ShovelCanadianDriveway()) {
-                    
-                    ListItem(hint:"🚙",
-                             title: "Shovel a Canadian driveway",
-                             summary: "Never say you can do it right the first time")
-                }
-                
-                NavigationLink(destination: ParkingSpot()) {
-                    
-                    
-                    ListItem(hint:"🆙",
-                             title: "Canadian parking spot",
-                             summary: "There is always a parking spot")
-                }
-                
-                NavigationLink(destination: BeenAPleasure()) {
-                    ListItem(hint:"🎻",
-                             title: "It's been a pleasure",
-                             summary: "Good day my friends")
-                }
-                
-                
-                
+
             }
+            .navigationTitle("Favourite Things")
             .navigationTitle("Memes")
         }
     }
