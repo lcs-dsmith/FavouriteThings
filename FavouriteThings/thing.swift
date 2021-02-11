@@ -28,6 +28,7 @@ let favouriteThings = [
             
           ]
     ),
+    
     Thing(hint: "🏂",
           title: "Snowboarding",
           summary: "Me, the hill, and some sick tunes",
@@ -40,12 +41,14 @@ let favouriteThings = [
           ]
     ),
     
-    
     Thing(hint: "🎙",
           title: "Tech",
           summary: "If you heard me during a show, you wouldn't belive I liked it",
           segments: [
-            Segment(image: <#T##String#>,
-                    text: <#T##String#>)
-          ])
-    
+            Segment(image: "MeAndTech",
+                    text: "I have always had an interest in tech. Ever since I started in grade 4, I have not spent a year without doing some tech for my school. I truly am the defacto tech guy. The picture is of me during the snow day we had to decorate the campus, I was called to set up some music in the grove. After  setting it all up I put on my favourite Christmas playlist and just danced the day away. I always have so much fun whenever I get to do tech around the campus and now, I am the one they call when tech is needed."),
+            Segment(image: "LightFun",
+                    text: "The other place I do tech is in the theatre. That is where the real fun happens. The picture above is when we were teching the dance showcase. After setting up the floor lights we decided to have a bit of fun. I would turn on some of the lights and Simon and AO would use random objects to make funny scenes. I love teching and I again learned everything from Simon. There are few people who have had such and impact on my life.")
+          ]
+    )
+]
