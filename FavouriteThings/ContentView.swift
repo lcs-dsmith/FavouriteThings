@@ -12,26 +12,16 @@ struct ContentView: View {
         
         NavigationView {
             List(favouriteThings) { thing in
-
+                
                 NavigationLink(destination: ThingDetail(something: thing)) {
                     
                     ListItem(something: thing)
                     
                 }
-                    
-           
-                }
-                
-
             }
             .navigationTitle("Favourite Things")
-            .navigationTitle("Memes")
         }
     }
-    
-    
-    
-    
 }
 
 
@@ -43,5 +33,3 @@ struct ContentView_Previews: PreviewProvider {
             .preferredColorScheme(.light)
     }
 }
-
-
